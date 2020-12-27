@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Menu</title>
+  <title>Contacto</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -45,7 +45,7 @@
           <li><a href="#about">Sobre Nosotros</a>
             <ul>
               <li><a href="#">Misión/Visión</a></li>
-              <li class="menu-has-children"><a href="contacto.html">Contacto</a>
+              <li class="con"><a href="contacto.html">Contacto</a>
               </li>
             </ul>
           </li>
@@ -56,7 +56,7 @@
               <ul>
                 <li><a href="#">Esterilización</a></li>
                 <li><a href="#">Cuidado Sano</a></li>
-                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Categorias</a></li>
               </ul>
             </li>
           </ul>
@@ -67,7 +67,8 @@
               <li class="menu-has-children"><a href="#">Quiero Adoptar</a>
                 <ul>
                   <li><a href="#">Intereses</a></li>
-                  <li><a href="catalogo.html">Catalogo</a></li>
+                  <li><a href="#">Perros</a></li>
+                  <li><a href="#">Gatos</a></li>
                 </ul>
               </li>
               <li><a href="#">Se buscan</a></li>
@@ -84,6 +85,7 @@
                   <li><a href="#">Adopciones</a></li>
                 </ul>
               </li>
+              <li><a href="#">Bandeja de Entrada</a></li>
               <li><a href="#">Chats</a></li>
               <li><a href="#">Salir</a></li>
             </ul>
@@ -91,32 +93,86 @@
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
+    <br> <br>
 
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
-          </ol>
+        <!-- ======= Contacto ======= -->
+    <section id="contact">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="section-title">Contacto</h3>
+            <p class="section-description">Si deseas entrar en contacto con el equipo que llevo a cabo el desarrollo de Huellitas Amigas</p>
+          </div>
         </div>
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+  
+            <div class="col-lg-3 col-md-4">
+  
+              <div class="info">
+                <div>
+                  <i class="fa fa-map-marker"></i>
+                  <p>Delegación<br>Colonia, Calle INT</p>
+                </div>
+  
+                <div>
+                  <i class="fa fa-envelope"></i>
+                  <p>Correo</p>
+                </div>
+  
+                <div>
+                  <i class="fa fa-phone"></i>
+                  <p>un Numero</p>
+                </div>
+              </div>
+  
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-5 col-md-8">
+              <div class="form">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingrese algo" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo Electronico" data-rule="email" data-msg="Por favor ingresa un correo valido" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres de asunto" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo de nosotros" placeholder="Mensaje"></textarea>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="loading">Cargando</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Tu mensaje ha sido enviado, gracias:)</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+                </form>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- fin Contacto -->
 
-      </div>
-    </section><!-- End Breadcrumbs Section -->
-
-    <section class="inner-page pt-4">
-      <div class="container">
-        <p>
-          info info fosfo fosfo
-        </p>
-      </div>
-    </section>
 
   </main><!-- End #main -->
 

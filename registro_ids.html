@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/registro_ids.css" />
+  <title>Inicio de Sesión y Registro</title>
+</head>
+          <!-- 
+            Es importante que para el registro se agregen jsp minis para:
+            Usuario Normal: Nombre, Edad. Incluye CP.
+            Usuario Albergue: Incluye CP.
+            Registro de Usuario
+            Usuario Administrador
+
+           -->
+<body>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <!-- Form Inicio de Sesión -->
+        <form action="#" class="sign-in-form">
+          <h2 class="title">Inicia Sesión</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Nombre de Usuario" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Contraseña" />
+          </div>
+          <input type="submit" value="Inicia Sesión" class="btn solid" />
+          <p class="social-text">Siguenos en nuestras redes sociales</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </form>
+        <!-- Fin Form Inicio de Sesión -->
+        <!-- Form Registro -->
+        <form action="#" class="sign-up-form">
+          <h2 class="title">Registrate</h2>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Correo Electronico" />
+          </div>
+          
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Contraseña" />
+          </div>
+
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Código Postal/ Provincia" />
+          </div>
+
+          <input type="submit" class="btn" value="Registrate" />
+          <p class="social-text">Siguenos en nuestras redes sociales</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </form>
+        <!-- Fin Form Registro -->
+      </div>
+    </div>
+    
+    <div class="panels-container">
+      <!-- Panel Cuenta izq-->
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>¿Aun no cuentas con una cuenta?</h3>
+          <p>
+            ¡Registrate aquí!
+          </p>
+          <button class="btn transparent" id="sign-up-btn">Registro</button>
+        </div>
+        <img src="assets/img/img_reg/focused_working.svg" class="image" alt="" />
+      </div>
+      <!-- Fin Panel Cuenta -->
+      <!-- Panel Cuenta der-->
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>¿Ya cuentas con una cuenta?</h3>
+          <p>
+            No es necesario que vuelvas a completar el registro en caso de ya haberte registrado con anterioridad, ¡Inicia Sesión aquí!
+          </p>
+          <button class="btn transparent" id="sign-in-btn">Inicia Sesión</button>
+        </div>
+        <img src="assets/img/img_reg/authentication.svg" class="image" alt="" />
+      </div>
+      <!-- Fin Panel Cuenta der-->
+    </div>
+  </div>
+
+  <script src="assets/js/registro_ids.js"></script>
+</body>
+
+</html>
